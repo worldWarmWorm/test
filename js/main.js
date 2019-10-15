@@ -59,11 +59,11 @@ $(document).ready(function () {
     // drop-down menu
 
     $('.menu-icon').click(function () {
-        $('nav').slideToggle(500);
         $('ul.menu').css({
             'display': 'flex',
             'flex-direction': 'column'
         });
+        $('nav').slideToggle(500);
         if ($('.menu-icon').html() == '<i class="fas fa-times"></i>') {
             $(this).html('<i class="fas fa-bars"></i>');
         } else {

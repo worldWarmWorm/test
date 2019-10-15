@@ -601,12 +601,9 @@ div[filter]:hover .text {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1199px) {
     nav {
         display: none;    
-    }
-    .header, .about, .services, .portfolio, .pricing, .filter, .footer {
-        padding: 30px;
     }
     .menu__item {
         margin: 10px auto 10px;
@@ -625,6 +622,12 @@ div[filter]:hover .text {
         height: 50px;
         cursor: pointer;
         color: #fff;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header, .about, .services, .portfolio, .pricing, .filter, .footer {
+        padding: 30px;
     }
     .button {
         margin-top: 15px;
