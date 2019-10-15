@@ -736,4 +736,7 @@ div[filter]:hover .text {
     .blog a {
         line-height: 28px;;
     }
+    .blog span {
+        display: block;
+    }
 }
