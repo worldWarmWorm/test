@@ -69,6 +69,7 @@ $(document).ready(function () {
         } else {
             $(this).html('<i class="fas fa-times"></i>');
         }
+        
     });
 
     // to top button

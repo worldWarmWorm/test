@@ -737,9 +737,18 @@ div[filter]:hover .text {
         order: 2;
     }
     .blog a {
-        line-height: 28px;;
+        line-height: 28px;
     }
     .blog span {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        display: block !important;
+    }
+    ul.menu {
+        flex-direction: row !important;
     }
 }
