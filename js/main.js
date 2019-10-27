@@ -14,7 +14,7 @@ $(document).ready(function () {
                 $('.filter > div').show(300);
             }
         }
-    })
+    });
 
     // slider
 
@@ -43,7 +43,7 @@ $(document).ready(function () {
                 }
             }
         ]
-    })
+    });
 
     // menu
 
@@ -54,7 +54,7 @@ $(document).ready(function () {
         }, 500);
         $('ul.menu a[href^="#"').css({ 'color': '#212121' });
         return false;
-    })
+    });
 
     // drop-down menu
 
@@ -69,7 +69,7 @@ $(document).ready(function () {
         } else {
             $(this).html('<i class="fas fa-times"></i>');
         }
-        
+
     });
 
     // to top button
@@ -79,11 +79,11 @@ $(document).ready(function () {
             $('#toTop').fadeIn();
         else
             $('#toTop').fadeOut();
-    })
+    });
     $('#toTop').click(function () {
         $('body, html').animate({
             scrollTop: 0
         }, 800);
-    })
+    });
 
-})
+});
